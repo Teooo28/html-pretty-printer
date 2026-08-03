@@ -4,7 +4,7 @@ A Command Line Interface (CLI) utility built in Bash that functions as an HTML "
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Zero External Dependencies:** The solution relies exclusively on standard POSIX system tools like `grep` and `sed`. It avoids complex external libraries or dedicated parsers such as those from Python or Node.js.
 *   **High Portability:** Because it uses native shell utilities, the script can run on most Linux distributions or macOS.
@@ -14,7 +14,7 @@ A Command Line Interface (CLI) utility built in Bash that functions as an HTML "
 
 ---
 
-## 🧠 Architecture and Algorithm
+## Architecture and Algorithm
 
 The core logic is divided into two main steps: tokenization and indentation calculation.
 
@@ -40,7 +40,7 @@ The core logic is divided into two main steps: tokenization and indentation calc
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 *   **No Validation:** The script assumes the input is a valid HTML file; it does not repair syntax or validate code errors.
 *   **Non-Standard Tags:** Tags that are used as self-closing but are not part of the standard list may affect subsequent indentation.
